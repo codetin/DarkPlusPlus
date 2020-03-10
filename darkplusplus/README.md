@@ -1,7 +1,11 @@
-#Dark++
-This theme is from Dark+(default) and improve some keywords color.
+# Dark+3
+Dark+3 is a theme for vscode .  
+The theme is base on Dark+(default) and improve some keywords color.
 
-#changelog
+# changelog
+
+## 0.0.4 2019-12-16
+rename to Dark+3, because of lots of Dark++ theme 😄
 
 ## 0.0.3 2019-12-16
 set constant.numeric to #91afd1

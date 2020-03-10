@@ -1,9 +1,9 @@
 {
-    "name": "DarkPlusPlus",
+    "name": "darkplus3",
     "publisher": "codetin",
-    "displayName": "Dark++",
-    "description": "Dark++ theme for vscode",
-    "version": "0.0.3",
+    "displayName": "Dark+3",
+    "description": "Dark+3 theme for vscode",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.41.0"
     },
@@ -17,7 +17,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dark++",
+                "label": "Dark+3",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark++-color-theme.json"
             }
