@@ -5,8 +5,12 @@ Dark+3主题是基于MonakaiPro的一个自用主题。
 因为自己用的感觉不错，所以分享出来。  
 如果大家觉得好的话请到github官方点赞  
     
-![截图](./screencap.png)
+![截图](http:///screencap.png)
 画面截图
+
+![截图](./screencap2.png)
+VSCODE界面截图
+
 
 # changelog
 
