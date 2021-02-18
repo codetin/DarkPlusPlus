@@ -68,9 +68,10 @@
 		//"editor.findRangeHighlightBackground": "#3a3d4166",
 		//"editor.focusedStackFrameHighlightBackground": "#7abd7a4d",
 		//"editor.hoverHighlightBackground": "#264f7840",
-		//"editor.lineHighlightBorder": "#282828",
 		//"editor.rangeHighlightBackground": "#ffffff0b",
-		//"editor.selectionBackground": "#264f78",
+		"editor.selectionBackground": "#A5005B",
+		"editor.selectionHighlightBorder": "#FFFFFF",
+		"editor.lineHighlightBorder": "#b4b4b4",
 		//"editor.snippetFinalTabstopHighlightBorder": "#525252",
 		//"editor.snippetTabstopHighlightBackground": "#7c7c7c4d",
 		//"editor.stackFrameHighlightBackground": "#ffff0033",
@@ -300,6 +301,7 @@
 		//"tab.activeBackground": "#1e1e1e",
 		//"tab.activeForeground": "#ffffff",
 		//"tab.activeModifiedBorder": "#3399cc",
+		"tab.activeBorderTop": "#ffcc66",
 		//"tab.border": "#252526",
 		//"tab.inactiveBackground": "#2d2d2d",
 		//"tab.inactiveForeground": "#ffffff80",
@@ -345,12 +347,103 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Operators",
 			"scope": [
-				"meta.function-call",
-				"meta.function-call.arguments meta.function-call"
+				"keyword.operator"
 			],
 			"settings": {
-				"foreground": "#a9dc76"
+				"foreground": "#ee68af"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#5c6773"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+				"constant.other.symbol"
+			],
+			"settings": {
+				"foreground": "#95fb79"
+			}
+		},
+		{
+			"name": "Regular Expressions and Escape Characters",
+			"scope": [
+				"string.regexp",
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#9fe7fa"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#9ffcea"
+			}
+		},
+		// {
+		// 	"scope": [
+		// 		"meta.function-call",
+		// 		"meta.function-call.arguments meta.function-call"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#a9dc76"
+		// 	}
+		// },
+		{
+			"name": "Function arguments",
+			"scope": [
+				"variable.parameter",
+				"meta.parameter"
+			],
+			"settings": {
+				"foreground": "#f6bf6c",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Function call",
+			"scope": [
+				"variable.function",
+				"variable.annotation",
+				"meta.function-call.generic",
+				"support.function.go"
+			],
+			"settings": {
+				"foreground": "#fced65"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": [
+				"support.function",
+				"support.macro"
+			],
+			"settings": {
+				"foreground": "#fced65"
+			}
+		},
+		{
+			"name": "Library function console",
+			"scope": [
+				"support.function.console",
+			],
+			"settings": {
+				"foreground": "#fced65"
 			}
 		},
 		{
@@ -394,11 +487,8 @@
 		},
 		{
 			"scope": [
-				"constant.numeric",
 				"entity.name.operator.custom-literal.number",
 				"variable.other.enummember",
-				"keyword.operator.plus.exponent",
-				"keyword.operator.minus.exponent"
 			],
 			"settings": {
 				"foreground": "#91afd1"
@@ -580,7 +670,7 @@
 				"meta.embedded.assembly"
 			],
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#95fb79"
 			}
 		},
 		{
@@ -635,21 +725,18 @@
 			}
 		},
 		{
-			"scope": "keyword",
+			"name": "Keyword",
+			"scope": [
+				"keyword"
+			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#f5ba78"
 			}
 		},
 		{
 			"scope": "keyword.control",
 			"settings": {
 				"foreground": "#569cd6"
-			}
-		},
-		{
-			"scope": "keyword.operator",
-			"settings": {
-				"foreground": "#d4d4d4"
 			}
 		},
 		{
@@ -724,7 +811,7 @@
 				"entity.name.operator.custom-literal"
 			],
 			"settings": {
-				"foreground": "#a9dc76"
+				"foreground": "#fced65"
 			}
 		},
 		{
