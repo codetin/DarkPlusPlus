@@ -358,16 +358,34 @@
             "scope": ["comment"],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#5c6773"
+                "foreground": "#6A9955"
             }
         },
+        // {
+        //     "scope": "comment",
+        //     "settings": {
+        //         "foreground": "#6A9955"
+        //     }
+        // },
         {
             "name": "String",
-            "scope": ["string", "constant.other.symbol"],
+            "scope": [
+                "string",
+                "constant.other.symbol",
+                "entity.name.operator.custom-literal.string",
+                "meta.embedded.assembly"
+            ],
             "settings": {
+                //"foreground": "#00ff0d"
                 "foreground": "#95fb79"
             }
         },
+        // {
+        //     "scope": ["string", "entity.name.operator.custom-literal.string", "meta.embedded.assembly"],
+        //     "settings": {
+        //         "foreground": "#95fb79"
+        //     }
+        // },
         {
             "name": "Regular Expressions and Escape Characters",
             "scope": ["string.regexp", "constant.character", "constant.other"],
@@ -442,12 +460,6 @@
             "scope": "header",
             "settings": {
                 "foreground": "#000080"
-            }
-        },
-        {
-            "scope": "comment",
-            "settings": {
-                "foreground": "#6A9955"
             }
         },
         {
@@ -633,12 +645,6 @@
             }
         },
         {
-            "scope": ["string", "entity.name.operator.custom-literal.string", "meta.embedded.assembly"],
-            "settings": {
-                "foreground": "#95fb79"
-            }
-        },
-        {
             "scope": "string.tag",
             "settings": {
                 "foreground": "#ce9178"
@@ -816,7 +822,8 @@
             "name": "Class declaration and references",
             "scope": ["entity.name.namespace"],
             "settings": {
-                "foreground": "#b3ff00"
+                //"foreground": "#b3ff00"00e1ff
+                "foreground": "#00ccff"
             }
         },
         {
@@ -930,7 +937,9 @@
         {
             "scope": "constant.character.escape",
             "settings": {
-                "foreground": "#d7ba7d"
+                //"foreground": "#d7ba7d"
+                "foreground": "#95fb79"
+                //"foreground": "#9fe7fa"
             }
         },
         {
