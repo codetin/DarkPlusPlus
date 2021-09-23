@@ -19,6 +19,10 @@ Dark++主题是基于 Dark+(vscode 默认主题)的一个自用主题。
 
 # 变更日志
 
+## 0.2.1 2021 年 9 月 23 日
+
+增加 string.quoted.docstring.multi.python 支持
+
 ## 0.1.7 2021 年 9 月 22 日
 
 class 颜色从 variable 中独立
