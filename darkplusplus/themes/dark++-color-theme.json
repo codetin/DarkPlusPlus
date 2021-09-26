@@ -1,6 +1,7 @@
 {
     "$schema": "vscode://schemas/color-theme",
     "type": "dark",
+    "semanticHighlighting": true,
     "colors": {
         "activityBarBadge.background": "#007ACC",
         "editor.background": "#1E1E1E",
@@ -56,7 +57,12 @@
                 "foreground": "#9FFCEA"
             }
         },
-
+        {
+            "scope": ["constant.numeric.float.python"],
+            "settings": {
+                "foreground": "#00c59e"
+            }
+        },
         {
             "scope": [
                 "variable.function",
@@ -278,7 +284,8 @@
                 "support.constant.json"
             ],
             "settings": {
-                "foreground": "#4EC9B0"
+                //"foreground": "#4EC9B0"
+                "foreground": "#d802bb"
             }
         },
         {

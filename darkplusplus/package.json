@@ -3,7 +3,7 @@
     "publisher": "codetin",
     "displayName": "Dark++",
     "description": "Dark++ theme for vscode",
-    "version": "0.2.2",
+    "version": "0.2.4",
     "license": "MIT",
     "icon": "darkplusplus.png",
     "engines": {
@@ -24,6 +24,11 @@
                 "path": "./themes/dark++-color-theme.json"
             }
         ]
+    },
+    "configurationDefaults": {
+        "[Dark++]": {
+            "editor.semanticHighlighting.enabled": true
+        }
     },
     "__metadata": {
         "publisherDisplayName": "code_tin"
