@@ -3,7 +3,10 @@
 Dark++主题是基于 Dark+(vscode 默认主题)的一个自用主题。  
 因为自己用的感觉不错，所以分享出来。  
 如果大家觉得好的话请到 github 官方点赞。  
-说明文件改为中文书写，非中文用户可以考虑使用翻译软件查看。
+
+增强了文本以及数字的字体亮度
+对于类,函数以及实体使用不同颜色进行区分
+针对python语法优化
 
 ![截图](https://github.com/codetin/DarkPlusPlus/blob/master/darkplusplus/screencap.png?raw=true)
 
