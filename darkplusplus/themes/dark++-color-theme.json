@@ -25,6 +25,20 @@
         "symbolIcon.functionForeground": "#FF0000",
         "tab.activeBorderTop": "#FFCC66"
     },
+    "semanticTokenColors": {
+        "variable": "#9CDCFE",
+        "namespace": "#00CCFF",
+        "type": "#569CD6",
+        "struct": "#fcfcfa",
+        "class": "#d802bb",
+        "parameter": "#4ec9b0",
+        "property": "#fcca5e",
+        "function": "#FCED65",
+        "method": "#FCED65",
+        "string": "#95FB79",
+        "operator": "#EE68AF",
+        "keyword": "#F5BA78"
+    },
     "tokenColors": [
         {
             "scope": ["keyword.operator"],
