@@ -32,9 +32,12 @@
         "struct": "#fcfcfa",
         "class": "#d802bb",
         "parameter": "#4ec9b0",
-        "property": "#fcca5e",
-        "function": "#FCED65",
-        "method": "#FCED65",
+        "property": "#FFF3CD",
+        // fcca5e
+        "function": "#fcca5e",
+        // FFF3CD
+        "method": "#fcca5e",
+        // FCED65
         "string": "#95FB79",
         "operator": "#EE68AF",
         "keyword": "#F5BA78"
@@ -43,7 +46,8 @@
         {
             "scope": ["keyword.operator"],
             "settings": {
-                "foreground": "#EE68AF"
+                "foreground": "#ffffff",
+                "fontStyle": "bold"
             }
         },
 
