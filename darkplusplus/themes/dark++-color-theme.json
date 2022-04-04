@@ -3,6 +3,7 @@
     "type": "dark",
     "semanticHighlighting": true,
     "colors": {
+        "titleBar.activeBackground": "#004583",
         "activityBarBadge.background": "#007ACC",
         "editor.background": "#1E1E1E",
         "editor.foreground": "#D4D4D4",
